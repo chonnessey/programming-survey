@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  $("#survey").submit(function(event) {
+  $("form").submit(function(event) {
     event.preventDefault();
     const age = parseInt($("#age").val());
     const food = $("#food").val();
@@ -19,9 +19,8 @@ $(document).ready(function() {
     } else {
       result = ".python";
     }
-  $(result).fadeIn(".java, .python, .c");
- 
-
-  
+  $(result).fadeIn(".java");
+  $(result).fadeIn(".c");
+  $(result).fadeIn(".python");
   });
 });

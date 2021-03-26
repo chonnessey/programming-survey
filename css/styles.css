@@ -1,5 +1,6 @@
 .java, .python, .c {
   display: none;
+  margin-bottom: 50px;
 }
 
 body {
@@ -21,4 +22,10 @@ body {
 
 h1 {
   text-decoration: underline black;
+}
+
+.btn-success {
+  margin-bottom: 50px;
+  margin-top: 50px;
+  cursor: pointer;
 }
