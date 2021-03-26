@@ -6,18 +6,22 @@ $(document).ready(function() {
     const music = $("#music").val();
     const vacation = $("#vacation").val();
     const beverage = $("#beverage").val();
+    let result;
 
     if (age > 1 && food === "tacos") {
-      $(".java").fadeIn();
+      result = ".java";
     } else if (age > 1 && food === "pancakes" && music === "jazz") {
-      $(".python").fadeIn();
+      result = ".python";
     } else if (age > 1 && beverage === "beer" && vacation === "mexico") {
-      $(".c").fadeIn();
+      result = ".c";
     } else if (age > 1 && food === "rice") {
-      $(".c").fadeIn();
+      result = ".c";
     } else {
-      $(".python").fadeIn();
+      result = ".python";
     }
+  $(result).toggle(".java, .c, .python");
+  
+  
 
   });
 });
