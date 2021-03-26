@@ -19,9 +19,9 @@ $(document).ready(function() {
     } else {
       result = ".python";
     }
-  $(result).toggle(".java, .c, .python");
-  
-  
+  $(result).fadeIn(".java, .python, .c");
+ 
 
+  
   });
 });
