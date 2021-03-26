@@ -8,7 +8,7 @@ $(document).ready(function() {
     const beverage = $("#beverage").val();
 
     if (age > 1 && food === "tacos") {
-      $(".java").show();
+      $(".java").toggleIn($(".python, .c").toggle());
     } else if (age > 1 && food === "pancakes" && music === "jazz") {
       $(".python").show();
     } else if (age > 1 && beverage === "beer" && vacation === "mexico") {
