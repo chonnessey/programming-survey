@@ -9,6 +9,8 @@ $(document).ready(function() {
 
     if (age > 12 && food === "tacos") {
       $(".java").show();
+    } else if (age > 1 && food === "pizza" && music === "jazz") {
+      $(".python").show();
     }
 
   });
