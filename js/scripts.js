@@ -6,5 +6,10 @@ $(document).ready(function() {
     const music = $("#music").val();
     const vacation = $("#vacation").val();
     const beverage = $("#beverage").val();
+
+    if (age > 12 && food === "tacos") {
+      $(".java").show();
+    }
+
   });
 });
