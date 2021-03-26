@@ -8,15 +8,15 @@ $(document).ready(function() {
     const beverage = $("#beverage").val();
 
     if (age > 1 && food === "tacos") {
-      $(".java").toggleIn($(".python, .c").toggle());
+      $(".java").fadeIn();
     } else if (age > 1 && food === "pancakes" && music === "jazz") {
-      $(".python").show();
+      $(".python").fadeIn();
     } else if (age > 1 && beverage === "beer" && vacation === "mexico") {
-      $(".c").show();
+      $(".c").fadeIn();
     } else if (age > 1 && food === "rice") {
-      $(".c").show();
+      $(".c").fadeIn();
     } else {
-      $(".python").show();
+      $(".python").fadeIn();
     }
 
   });
