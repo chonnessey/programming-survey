@@ -18,3 +18,7 @@ body {
 #survey {
   color: azure;
 }
+
+h1 {
+  text-decoration: underline black;
+}
