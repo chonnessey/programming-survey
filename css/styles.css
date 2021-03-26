@@ -11,6 +11,8 @@ body {
   color: azure;
   text-shadow: black;
   text-align: center;
+  border: solid black;
+  margin-top: 20px;
 }
 
 #survey {
