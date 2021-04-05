@@ -19,6 +19,8 @@ $(document).ready(function() {
     } else {
       result = ".python";
     }
+    
+  $(".previous").hide();
   $(result).fadeIn(".java");
   $(result).fadeIn(".c");
   $(result).fadeIn(".python");
