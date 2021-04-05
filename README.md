@@ -28,11 +28,11 @@ _This project contains the new skills and methods I've learned from JavaScript a
 * _Bootstrap external library_
 * _JQuery -3.6.0.js external library_
 
-_Once in my repository {programming-survey} go ahead and clone the repository. You can do this by clicking the green drop down button that says "code". Copy the HTTPS URL onto your clipboard. Open up your terminal, use the command {$ git clone (followed by URL that is on your clipboard)}. Move the file into a directory of your choosing. Get into the directory using the command {$ cd}, open the file on your text editor of choice using the command {$ code .}. From there you will be able to Work on it freely!_
+_Once in my [repository](https://github.com/chonnessey/programming-survey) go ahead and clone it. You can do this by clicking the green drop down button that says "code". Copy the HTTPS URL onto your clipboard. Open up your terminal, use the command {$ git clone (followed by URL that is on your clipboard)}. Move the file into a directory of your choosing. Get into the directory using the command {$ cd}, open the file on your text editor of choice using the command {$ code .}. From there you will be able to Work on it freely!_
 
 ## Known Bugs
 
-* _Results from first submission of form do not hide after new answers are submitted._
+* _No Known bugs._
 
 ## License
 
